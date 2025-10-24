@@ -1,0 +1,12 @@
+build/
+bin/
+*.o
+*.out
+*.exe
+*.log
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
+.vscode/
+.idea/

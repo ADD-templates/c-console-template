@@ -1,0 +1,39 @@
+# Build and binary directories
+build/
+bin/
+
+# Object files, executables, and core dumps
+*.o
+*.out
+*.exe
+*.log
+core
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# MacOS files
+.DS_Store
+
+# Python cache (if any scripts)
+__pycache__/
+*.pyc
+
+# Test artifacts
+*.gcda
+*.gcno
+*.gcov
+
+# Others
+*.tmp
+*.orig
+
+# Ignore Docker artifacts (if any)
+*.pid
+
+# Ignore generated documentation
+# docs/
