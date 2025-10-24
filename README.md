@@ -1,5 +1,4 @@
-# Algoritmos y Estructuras de Datos en C
-
+# Template para programas en C
 Un proyecto de práctica para implementar y estudiar algoritmos fundamentales y estructuras de datos utilizando el lenguaje C.
 
 ## 📋 Tabla de Contenidos
@@ -63,12 +62,12 @@ sudo pacman -S base-devel gcc make valgrind
 ### 1. Clonar o Descargar el Proyecto
 ```bash
 # Si usas Git
-git clone https://github.com/tu-usuario/algorithms-practice-c.git
-cd algorithms-practice-c
+git clone https://github.com/ADD-templates/c-console-template.git
+cd c-console-template
 
 # O descargar y extraer manualmente
-mkdir algorithms-practice-c
-cd algorithms-practice-c
+mkdir c-console-template
+cd c-console-template
 ```
 
 ### 2. Crear la Estructura de Directorios
@@ -112,7 +111,7 @@ make distclean
 # Mostrar información del proyecto
 make info
 
-# El ejecutable se crea en: bin/algorithms-practice
+# El ejecutable se crea en: bin/c-console-program
 ls -la bin/
 ```
 
@@ -124,7 +123,7 @@ ls -la bin/
 make run
 
 # O ejecutar directamente
-./bin/algorithms-practice
+./bin/c-console-program
 ```
 
 ### Opciones de Menú
@@ -197,7 +196,7 @@ make debug
 make debug
 
 # Ejecutar con GDB
-gdb ./bin/algorithms-practice
+gdb ./bin/c-console-program
 
 # Comandos básicos de GDB
 (gdb) break main          # Punto de interrupción en main
@@ -215,7 +214,7 @@ gdb ./bin/algorithms-practice
 make valgrind
 
 # O manualmente
-valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./bin/algorithms-practice
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./bin/c-console-program
 ```
 
 ### Debug con Print Statements
@@ -227,7 +226,7 @@ DEBUG_PRINT("Valor de variable: %d\n", variable);
 ## 📁 Estructura del Proyecto
 
 ```
-algorithms-practice-c/
+c-console-template/
 ├── Makefile                 # Configuración de compilación
 ├── README.md               # Este archivo
 ├── src/                    # Código fuente
@@ -500,7 +499,7 @@ Esto te deja en un shell dentro del contenedor, en el directorio del proyecto.
 
 ```bash
 make
-./bin/algorithms-practice
+./bin/c-console-program
 make test
 make valgrind
 ```
@@ -511,7 +510,7 @@ Si tienes GCC y Make instalados en tu sistema, puedes usar los mismos comandos f
 
 ```bash
 make
-./bin/algorithms-practice
+./bin/c-console-program
 make test
 make valgrind
 ```

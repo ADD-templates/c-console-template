@@ -3,7 +3,7 @@
 # =============================================================================
 
 # Variables de configuración
-PROJECT_NAME = algorithms-practice
+PROJECT_NAME = c-console-program
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -pedantic -O2
 DEBUG_FLAGS = -g -DDEBUG -O0

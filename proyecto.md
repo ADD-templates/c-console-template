@@ -1,4 +1,4 @@
-algorithms-practice-c/
+c-console-template/
 ├── Makefile                 # Configuración de compilación
 ├── README.md               # Documentación del proyecto
 ├── Dockerfile              # Imagen Docker para desarrollo y ejecución aislada

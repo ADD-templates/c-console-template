@@ -6,7 +6,7 @@
 //#include "data_structures/linked_list.h"
 
 void show_menu() {
-    printf("\n" BOLD "=== Algoritmos y Estructuras de Datos ===" RESET "\n");
+    printf("\n" BOLD "=== " PROJECT_NAME " ===" RESET "\n");
     printf("1. Algoritmos de Ordenamiento\n");
     printf("2. Estructuras de Datos\n");
     printf("3. Algoritmos de Búsqueda\n");
@@ -15,7 +15,7 @@ void show_menu() {
 }
 
 int main() {
-    printf(GREEN "Bienvenido al proyecto de Algoritmos y Estructuras de Datos\n" RESET);
+    printf(GREEN "Bienvenido al proyecto de " PROJECT_NAME "\n" RESET);
     printf("Versión: %s\n", VERSION);
     printf("Compilado en modo: %s\n\n", BUILD_MODE);
     
